@@ -1,0 +1,7 @@
+# Command for start/stop yabai
+ctrl + alt - space : \
+    if pgrep -x "yabai" > /dev/null; then \
+        yabai --stop-service; \
+    else \
+        yabai --start-service; \
+    fi
